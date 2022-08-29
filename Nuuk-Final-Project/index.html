@@ -1,0 +1,675 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EdYoda | HTML & CSS Final Project</title>
+  <script src="https://kit.fontawesome.com/acb6bb0895.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="./Img/n2.jpg" type="image/x-icon">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="navbar-wrapper">
+      <div class="navbar-container">
+        <div class="left-navbar-container">
+          <div class="brand">
+            <img src="./Img/logo-white.png" width="90" alt="NUUK" />
+          </div>
+        </div>
+        <div class="right-navbar-container d-flex">
+          <div class="navigation-bar">
+            <ul class="d-flex">
+              <li>
+                <a href="#" class="navbar-link active">
+                  <div>Home</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="navbar-link">
+                  <div>Projects</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="navbar-link">
+                  <div>About</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="navbar-link">
+                  <div>Services</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="navbar-link">
+                  <div>Blog</div>
+                </a>
+              </li>
+              <li class="dropdown-link">
+                <a href="#" class="navbar-link">
+                  <div class="dropdown-container d-flex">
+                    <div>Pages</div>
+                    <img src="./Img/sort-down.svg" alt="dropdown-arrow" />
+                  </div>
+                </a>
+                <div class="pages-wrapper">
+                  <a href="#">
+                    <div>404 error page</div>
+                  </a>
+                  <a href="#">
+                    <div>Protected Page</div>
+                  </a>
+                  <a href="#">
+                    <div>Style guide</div>
+                  </a>
+                  <a href="#">
+                    <div>Licensing</div>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="quote">
+            <p class="quote-text">Get Free Quote</p>
+          </div>
+        </div>
+        <div class="hamburger-menu">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="banner">
+        <div class="banner-section">
+          <h1 class="banner-heading">You dream. We create.</h1>
+          <p class="banner-text">
+            We turn your ideas to reality. We don't stop until you're satisfied.
+          </p>
+          <div class="free-quote">
+            <a href="#" class="free-quote-link">
+              <button id="free-quote-btn">Get free quote</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="info-wrapper">
+        <div class="info-container">
+          <div class="info-card">
+            <img src="./Img/clock.svg" alt="clock" class="info-image" />
+            <h1 class="info-title">Opening Times</h1>
+            <p>Mon - Sat 8:00 - 17:30, Sunday - Closed</p>
+            <div id="find-map">
+              <a class="link-text white-link" href="#">
+                <div>Find on map</div>
+              </a>
+            </div>
+          </div>
+          <div class="info-card">
+            <img src=".//Img/mail.svg" alt="mail" class="info-image" />
+            <h1 class="info-title">Contact</h1>
+            <p>contact@nuuk.com</p>
+            <p>info@nuuk.com</p>
+          </div>
+          <div class="info-card">
+            <img src="./Img/phone.svg" alt="phone" class="info-image" />
+            <h1 class="info-title">Phone Number</h1>
+            <p>1-800-506-266</p>
+            <p>1-100-777-800</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="social-wrapper">
+        <div class="social-container">
+          <div class="social-logo" ><i class="fa fa-facebook" aria-hidden="true"></i></div>
+          <div class="social-logo"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+          <div class="social-logo"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+          <div class="social-logo-insta"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+        </div>
+      </div>
+      </section>
+
+    <section>
+      <div class="services-wrapper">
+        <div class="services-section">
+          <div class="title-heading-container">
+            <h1 class="top-title-absolute">Services</h1>
+            <h1 class="top-title">Our Specialization</h1>
+            <a class="link-text gray-link" href="#">
+              <div>View all Services</div>
+            </a>
+          </div>
+        </div>
+        <div class="services-card-container">
+          <div class="services-card">
+            <div class="services-card-heading">
+              <img class="services-card-icon" src="./Img/brickwall.svg"
+                alt="Brickwall">
+              <h1 class="services-card-title">Renovation</h1>
+            </div>
+            <div class="services-card-content">
+              <p class="gray-para para-spacing">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in eros elementum tristique.</p>
+              <a class="link-text gray-link" href="#">
+                <div>Learn more</div>
+              </a>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-card-heading">
+              <img class="services-card-icon" src="./Img/set-square.svg"
+                alt="Set Square">
+              <h1 class="services-card-title">Architecture</h1>
+            </div>
+            <div class="services-card-content">
+              <p class="gray-para para-spacing">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in eros elementum tristique.</p>
+              <a class="link-text gray-link" href="#">
+                <div>Learn more</div>
+              </a>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-card-heading">
+              <img class="services-card-icon" src="./Img/toolbox.svg"
+                alt="Toolbox">
+              <h1 class="services-card-title">Construction</h1>
+            </div>
+            <div class="services-card-content">
+              <p class="gray-para para-spacing">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in eros elementum tristique.</p>
+              <a class="link-text gray-link" href="#">
+                <div>Learn more</div>
+              </a>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-card-heading">
+              <img class="services-card-icon" src="./Img/paint-roller.svg"
+                alt="Paint Roller">
+              <h1 class="services-card-title">Financial Results</h1>
+            </div>
+            <div class="services-card-content">
+              <p class="gray-para para-spacing">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in eros elementum tristique.</p>
+              <a class="link-text gray-link" href="#">
+                <div>Learn more</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="about-wrapper">
+        <div class="about-left-container">
+          <img class="about-img" src="./Img/serv-1.jpg" width="750"
+            alt="Worker">
+        </div>
+        <div class="about-right-container">
+          <div class="title-heading-container">
+            <h1 class="top-title-absolute">About</h1>
+            <h1 class="top-title">Who we are</h1>
+          </div>
+          <div class="about-content-container">
+            <p class="gray-para">Based on collective work and shared knowledge, Nuuk aims to favor dialogue and debate,
+              to transform
+              individual knowledge into increased creative potential.</p>
+            <br>
+            <p class="gray-para para-spacing pb-40">Our studio is a architecture practice based in NY and Paris. Today,
+              it
+              includes 150
+              architects, urban
+              planners, landscape and interior designers of 25 different nationalities. The company principle of
+              Architecture-Studio is the collective conception. From the very beginning, the practice has believed in
+              the virtues of exchange, crossing ideas, common effort, shred knowledge.</p>
+          </div>
+          <a class="link-text gray-link" href="#">
+            <div>Meet the team</div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="achievements-wrapper">
+        <div class="achievement-card">
+          <div class="achievement-num">170</div>
+          <div class="gray-para pb-40">Employer with over 10 years of experience</div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-num">10</div>
+          <div class="gray-para pb-40">Years experience in construction industries</div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-num">690</div>
+          <div class="gray-para pb-40">Residential premises completed in 2019</div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-num">7.1</div>
+          <div class="gray-para pb-40">Milion dollar value on investments</div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="work-wrapper">
+        <div class="title-heading-container">
+          <h1 class="top-title-absolute">Projects</h1>
+          <h1 class="top-title">Our work</h1>
+          <a class="link-text gray-link" href="#">
+            <div>View all Services</div>
+          </a>
+        </div>
+        <div class="work-card-container">
+          <div class="work-card-row">
+            <div class="work-card">
+              <img src="./Img/p-1.jpg" alt="Project 1">
+              <div class="overlay-div">
+                <div class="overlay-circle">
+                  <div>View Project</div>
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <img src="./Img/p-4.jpg" alt="Project 4">
+              <div class="overlay-div">
+                <div class="overlay-circle">
+                  <div>View Project</div>
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <img src="Img/p-3.jpg" alt="Project 3">
+              <div class="overlay-div">
+                <div class="overlay-circle">
+                  <div>View Project</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="work-card-row">
+            <div class="work-card">
+              <img src="./Img/p-6.jpg" alt="Project 6">
+              <div class="overlay-div">
+                <div class="overlay-circle">
+                  <div>View Project</div>
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <img src="./Img/p-5.jpg" alt="Project 5">
+              <div class="overlay-div">
+                <div class="overlay-circle">
+                  <div>View Project</div>
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <img src="./Img/p-2.jpg" alt="Project 2">
+              <div class="overlay-div">
+                <div class="overlay-circle">
+                  <div>View Project</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="banner-2">
+        <div class="banner-section-2">
+          <h1 class="banner-heading-2">Let's make something great together</h1>
+          <p class="banner-text pb-40">
+            Get in touch with us and send some basic info for a quick quote.
+          </p>
+          <div>
+            <a class="link-text white-link" href="#">
+              <div>Get free quote</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="team-wrapper">
+        <div class="title-heading-container">
+          <h1 class="top-title-absolute">Team</h1>
+          <h1 class="top-title">Professionals</h1>
+          <a class="link-text gray-link" href="#">
+            <div>About us</div>
+          </a>
+        </div>
+        <div class="team-card-container">
+          <div class="team-card-wrapper">
+            <div class="team-card">
+              <div class="team-photo team-photo-1">
+              </div>
+              <div class="team-content">
+                <h1 class="team-name">Philip Brower</h1>
+                <p class="job-title">Managing Director</p>
+              </div>
+              <div class="social-vertical-wrapper">
+                <div class="social-vertical">
+                  <div class="social-logo"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                  <div class="social-logo"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                  <div class="social-logo-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-card-wrapper">
+            <div class="team-card">
+              <div class="team-photo team-photo-2">
+              </div>
+              <div class="team-content">
+                <h1 class="team-name">John Wick</h1>
+                <p class="job-title">Managing Director</p>
+              </div>
+              <div class="social-vertical-wrapper">
+                <div class="social-vertical">
+                  <div class="social-logo"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                  <div class="social-logo"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                  <div class="social-logo-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-card-wrapper">
+            <div class="team-card">
+              <div class="team-photo team-photo-3">
+              </div>
+              <div class="team-content">
+                <h1 class="team-name">Jimmy Mcgill</h1>
+                <p class="job-title">Managing Director</p>
+              </div>
+              <div class="social-vertical-wrapper">
+                <div class="social-vertical">
+                  <div class="social-logo"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                  <div class="social-logo"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                  <div class="social-logo-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-card-wrapper">
+            <div class="team-card">
+              <div class="team-photo team-photo-4">
+              </div>
+              <div class="team-content">
+                <h1 class="team-name">Sara Connor</h1>
+                <p class="job-title">Managing Director</p>
+              </div>
+              <div class="social-vertical-wrapper">
+                <div class="social-vertical">
+                  <div class="social-logo"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                  <div class="social-logo"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                  <div class="social-logo-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="testimonial-wrapper">
+        <div class="title-heading-container flex-column justify-start align-start">
+          <h1 class="top-title-absolute">Clients</h1>
+          <h1 class="top-title pb-40">Testimonials</h1>
+          <div class="gray-para pb-40">Aenean ut eros et nisl sagittis vestibulum. Fusce neque. Praesent blandit
+            laoreet
+            nibh. Morbi mollis tellus ac sapien.</div>
+          <a class="link-text gray-link" href="#">
+            <div>Our Services</div>
+          </a>
+        </div>
+        <div class="testimonial-card-container">
+          <div class="testimonial-card-column">
+            <div class="testimonial-card">
+              <div class="testimonial-overlay">
+                <div class="testimonial-overlay-text">"</div>
+              </div>
+              <div class="testimonial-card-heading">
+                <div class="testimonial-content">
+                  <h4 class="testimonial-name">Sara William</h4>
+                  <p class="testimonial-title">CEO at Webflow</p>
+                </div>
+              </div>
+              <div class="testimonial-card-content">
+                <p class="gray-para">"Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                  commodo
+                  diam libero vitae erat.
+                  Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet"</p>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-overlay">
+                <div class="testimonial-overlay-text">"</div>
+              </div>
+              <div class="testimonial-card-heading">
+                <div class="testimonial-content">
+                  <h4 class="testimonial-name">John Junior</h4>
+                  <p class="testimonial-title">Manager at Complexx</p>
+                </div>
+              </div>
+              <div class="testimonial-card-content">
+                <p class="gray-para">"Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Cras varius. Etiam
+                  sit amet orci eget eros faucibus tincidunt. Fusce a quam"</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card-column">
+            <div class="testimonial-card">
+              <div class="testimonial-overlay">
+                <div class="testimonial-overlay-text">"</div>
+              </div>
+              <div class="testimonial-card-heading">
+                <div class="testimonial-content">
+                  <h4 class="testimonial-name">Raven Durgan</h4>
+                  <p class="testimonial-title">Architect at Group</p>
+                </div>
+              </div>
+              <div class="testimonial-card-content">
+                <p class="gray-para">"Aliquam eu nunc. Cras dapibus. Vestibulum turpis sem, aliquet eget, lobortis
+                  pellentesque, rutrum eu, nisl"</p>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-overlay">
+                <div class="testimonial-overlay-text">"</div>
+              </div>
+              <div class="testimonial-card-heading">
+                <div class="testimonial-content">
+                  <h4 class="testimonial-name">Sami Typo</h4>
+                  <p class="testimonial-title">SEO at Balfin</p>
+                </div>
+              </div>
+              <div class="testimonial-card-content">
+                <p class="gray-para">"Vestibulum fringilla pede sit amet augue. Morbi ac felis. Ut a nisl id ante tempus
+                  hendrerit"</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="blog-wrapper">
+        <div class="title-heading-container">
+          <h1 class="top-title-absolute">Blog</h1>
+          <h1 class="top-title">Latest news</h1>
+          <a class="link-text gray-link" href="#">
+            <div>View blog</div>
+          </a>
+        </div>
+        <div class="blog-card-container">
+          <div class="blog-card">
+            <div class="blog-card-image">
+              <img src="./Img/port-1.jpg" alt="Blog Image 1">
+            </div>
+            <div class="blog-card-content">
+              <h4 class="blog-card-title">Blogpost 1</h4>
+              <p class="gray-para blog-card-para">
+                Service and providing potential clients and customers
+                with testimonials is one of the best ways to market.
+              </p>
+              <a class="link-text white-link link-blog-card" href="#">
+                <div>Read more</div>
+              </a>
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="blog-card-image">
+              <img src="./Img/port-2.jpg" alt="Block Image 2">
+            </div>
+            <div class="blog-card-content">
+              <h4 class="blog-card-title">Blogpost 2</h4>
+              <p class="gray-para blog-card-para">
+                Service and providing potential clients and customers
+                with testimonials is one of the best ways to market.
+              </p>
+              <a class="link-text white-link link-blog-card" href="#">
+                <div>Read more</div>
+              </a>
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="blog-card-image">
+              <img src="./Img/port-3.jpg" alt="Blog Image 3">
+            </div>
+            <div class="blog-card-content">
+              <h4 class="blog-card-title">Blogpost 3</h4>
+              <p class="gray-para blog-card-para">
+                Service and providing potential clients and customers
+                with testimonials is one of the best ways to market.
+              </p>
+              <a class="link-text white-link link-blog-card" href="#">
+                <div>Read more</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="companies-wrapper">
+        <div class="logo-flex">
+          <div class="companies-heading">
+            <h1 class="companies-top-title">
+              trusted by top companies<strong><br /></strong>
+            </h1>
+          </div>
+          <a href="#" class="logo logo-1"></a>
+          <a href="#" class="logo logo-2"></a>
+          <a href="#" class="logo logo-3"></a>
+          <a href="#" class="logo logo-4"></a>
+          <a href="#" class="logo logo-5"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-wrapper">
+      <div class="footer-card-container">
+        <div class="footer-card">
+          <div class="footer-card-heading">
+            <div class="footer-card-title">About Nuuk</div>
+            <div class="footer-card-title-line"></div>
+          </div>
+          <div class="footer-card-content">
+            <p class="gray-para footer-card-para">
+              Based on collective work and shared knowledge, Nuuk aims to favor dialogue and debate, to transform
+              individual knowledge into increased creative potential.
+            </p>
+            <div class="pt-16">
+              <a class="link-text white-link" href="#">
+                <div>Find on map</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-card">
+          <div class="footer-card-heading">
+            <div class="footer-card-title">Services</div>
+            <div class="footer-card-title-line"></div>
+          </div>
+          <div class="footer-card-content">
+            <div>
+              <a class="link-text white-link" href="#">
+                <div>Financial Results</div>
+              </a>
+            </div>
+            <div class="pt-16">
+              <a class="link-text white-link" href="#">
+                <div>Construction</div>
+              </a>
+            </div>
+            <div class="pt-16">
+              <a class="link-text white-link" href="#">
+                <div>Architecture</div>
+              </a>
+            </div>
+            <div class="pt-16">
+              <a class="link-text white-link" href="#">
+                <div>Renovation</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-card">
+          <div class="footer-card-heading">
+            <div class="footer-card-title">Contact us</div>
+            <div class="footer-card-title-line"></div>
+          </div>
+          <div class="footer-card-content">
+            <div class="contact-card-container">
+              <div class="contact-card">
+                <div class="contact-card-heading">
+                  <img src="./Img/phone.svg" alt="Phone"
+                    class="contact-card-img">
+                  <h1 class="contact-card-title">Phone Number</h1>
+                </div>
+                <p class="gray-para contact-card-para">1-800-506-266</p>
+              </div>
+              <div class="contact-card">
+                <div class="contact-card-heading">
+                  <img src="./Img/clock.svg" alt="Clock"
+                    class="contact-card-img">
+                  <h1 class="contact-card-title">Opening Times</h1>
+                </div>
+                <p class="gray-para contact-card-para">Mon - Sat 8:00 - 17:30, Sunday - Closed</p>
+              </div>
+              <div class="contact-card">
+                <div class="contact-card-heading">
+                  <img src="./Img/mail.svg" alt="Mail" class="contact-card-img">
+                  <h1 class="contact-card-title">Contact</h1>
+                </div>
+                <p class="gray-para contact-card-para">contact@nuuk.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="brand-footer">
+        <img src="./Img/logo-white.png" width="90" alt="NUUK" />
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
